@@ -94,7 +94,7 @@
     function checkAnswer() {
       const ans = document.getElementById('puzzleInput').value.trim().toLowerCase();
       const result = document.getElementById('result');
-      if (ans === 'morse' || ans === 'samuel morse') {
+      if (ans === 'morse' || ans === 'samuel morse' || ans === 'morse code') {
         document.getElementById('morseChallenge').style.display = 'block';
         result.innerText = '';
       } else {
